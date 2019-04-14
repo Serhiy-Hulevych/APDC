@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:id="@+id/tela">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".RegisterUserActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="List of usernames"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#0000FF"
+        android:layout_below="@+id/createUser" />
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_height="match_parent"
+            android:paddingTop="15dp">
+        </ListView>
+
+    <Button
+        android:maxWidth="111dp"
+        android:id="@+id/createUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="#359c5e"
+        android:padding="8dp"
+        android:text="Register User"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:maxWidth="111dp"
+        android:id="@+id/createAuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/createUser"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="#359c5e"
+        android:padding="8dp"
+        android:text="Register Auser"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:maxWidth="102dp"
+        android:id="@+id/createGS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/createAuser"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="#359c5e"
+        android:padding="8dp"
+        android:text="Register GS"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>
+    </ScrollView>

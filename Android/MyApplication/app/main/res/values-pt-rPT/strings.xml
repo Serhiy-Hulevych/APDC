@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Passe</string>
+    <string name="action_sign_in">Entrar ou registar</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="error_invalid_email">Email inválido</string>
+    <string name="error_invalid_password">Passe demasiado curta</string>
+    <string name="error_incorrect_password">Passe incorreta</string>
+    <string name="error_field_required">Obrigatório preencher</string>
+    <string name="permission_rationale">É necessário permissões dos contactos</string>
+</resources>
